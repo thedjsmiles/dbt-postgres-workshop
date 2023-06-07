@@ -1,0 +1,43 @@
+site_name: DBT + PostgreSQL Workshop
+theme: 
+  name: material
+  features:
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: pink
+  logo: assets/slalom-logo-black-150x50.png
+  favicon: https://slalom.com/themes/custom/slalom/favicon.ico
+extra:
+  homepage: https://slalom.com
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/thedjsmiles"  target="_blank" rel="noopener">Donny Morgan</a>      
